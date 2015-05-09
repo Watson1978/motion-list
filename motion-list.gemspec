@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["watson1978@gmail.com"]
   spec.description   = %q{This is RubyMotion plugin which provides various lists.}
   spec.summary       = %q{This is RubyMotion plugin which provides various lists.}
-  spec.homepage      = "https://github.com/HipByte/motion-appstore"
+  spec.homepage      = "https://github.com/Watson1978/motion-list"
   spec.license       = "MIT"
   spec.extensions    = ['ext/extconf.rb'] # Command-Line Plugin Installer
 
