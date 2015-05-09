@@ -38,10 +38,11 @@ Motion::Project::App.setup do |app|
   ...
   app.codesign_certificate = "iPhone Developer: Shizuo Fujita (4A73CV3K9R)"
 end
+```
 
 ### simulator
 
-`list codesigning` command shows the list of simulator device types which you can use.
+`list simulator` command shows the list of simulator device types which you can use.
 
 ```
 $ motion list simulator
