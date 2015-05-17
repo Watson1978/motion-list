@@ -40,6 +40,20 @@ Motion::Project::App.setup do |app|
 end
 ```
 
+### env
+
+`list env` command shows the list of environment variables which are able to use in project.
+
+```
+$ motion list env
+  ARR_CYCLES_DISABLE : Disable the cycle detector in memory management.
+     DISABLE_CAPTURE : Disable capturing UI view with 'command key + mouse over' in REPL
+                args : To pass command-line arguments when launching the application. (ex 'rake args="-com.apple.CoreData.SQLDebug 1"')
+    background_fetch : Launch an application for background fetch in the iOS Simulator.
+               debug : Launch the debugger.
+...
+```
+
 ### simulator
 
 `list simulator` command shows the list of simulator device types which you can use.
